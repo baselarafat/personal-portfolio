@@ -26,5 +26,5 @@ The production build is configured for GitHub Pages at `/personal-portfolio/`.
 
 ## Deployment
 
-The editable Vite source lives on `main`. The compiled contents of `dist/` are published to the
-`gh-pages` branch, which is the branch configured to serve the public GitHub Pages site.
+The editable Vite source lives on `main`. GitHub Actions builds the site, uploads the generated
+`dist/` artifact, and deploys it directly to GitHub Pages without committing generated files.
