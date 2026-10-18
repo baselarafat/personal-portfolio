@@ -26,4 +26,5 @@ The production build is configured for GitHub Pages at `/personal-portfolio/`.
 
 ## Deployment
 
-Pushes to `main` are built and deployed to GitHub Pages by the workflow in `.github/workflows/deploy.yml`.
+The editable Vite source lives on `main`. The compiled contents of `dist/` are published to the
+`gh-pages` branch, which is the branch configured to serve the public GitHub Pages site.
