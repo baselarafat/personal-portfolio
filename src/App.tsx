@@ -56,7 +56,7 @@ export default function App() {
       <header className="site-header">
         <a className="brand" href="#">Basil Arafat <small>◇</small></a>
         <nav className="nav">
-          <a href="#monte-carlo">Experiments</a>
+          <a href="#experiments">Experiments</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
           <button className="btn btn-primary" onClick={scrollToSim}>▶ RUN SIM</button>
@@ -64,12 +64,12 @@ export default function App() {
       </header>
 
       <section className="hero">
-        <h1>Probability Playground</h1>
-        <p className="tagline">Mathematician · Game Developer · Interactive probability experiments</p>
+        <h1>Basil Arafat</h1>
+        <p className="tagline">Software Engineer · Mathematician · Game Developer</p>
         <p className="lede">
-          I'm Basil — a software engineer and mathematician. I build <b>games, web apps, and
-          tools — and the math behind them.</b> This site doesn't describe probability.
-          It <b>runs</b> it. Every number below is being computed live, in your browser, right now.
+          I build <b>reliable software, simulations, and interactive systems — and the
+          mathematics behind them.</b> Explore live experiments alongside the web applications,
+          games, and tools I've engineered.
         </p>
         <div className="tags">
           <span className="tag">open source</span>
@@ -77,6 +77,14 @@ export default function App() {
           <span className="tag">react + canvas</span>
         </div>
       </section>
+
+      <div className="experiment-intro" id="experiments">
+        <div className="section-label">// PROBABILITY PLAYGROUND</div>
+        <p>
+          Interactive demonstrations of randomness, distributions, and systems behavior —
+          computed live in your browser.
+        </p>
+      </div>
 
       <MonteCarloPi />
       <GaltonBoard />
@@ -108,7 +116,7 @@ export default function App() {
       </div>
 
       <footer className="site-footer" id="contact">
-        <span>© 2026 Basil Arafat · Probability Playground — crafting playful math &amp; game systems</span>
+        <span>© 2026 Basil Arafat · Software, simulations &amp; interactive systems</span>
         <span className="links">
           <a href={GITHUB} target="_blank" rel="noreferrer">GitHub</a>
           <a href={LINKEDIN} target="_blank" rel="noreferrer">LinkedIn</a>

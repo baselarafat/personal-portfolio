@@ -331,3 +331,13 @@ canvas.sim {
   color: var(--muted);
   margin: 56px 0 20px;
 }
+
+.experiment-intro { scroll-margin-top: 92px; }
+.experiment-intro .section-label { margin-bottom: 10px; }
+.experiment-intro p {
+  max-width: 720px;
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
