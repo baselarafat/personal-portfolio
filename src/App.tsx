@@ -9,15 +9,15 @@ const FEATURED_WORK = [
   {
     id: "WORK-01",
     title: "OnPace",
-    desc: "A pacing companion for long efforts — plan splits, track progress in real time, and let the numbers tell you when to push.",
-    tags: "TypeScript · React",
+    desc: "A secure, installable household-budget PWA for rapid expense entry, shared real-time planning, and reliable financial tracking.",
+    tags: "React · TypeScript · Supabase · PostgreSQL",
     status: "PRIVATE PROJECT",
   },
   {
     id: "WORK-02",
     title: "Seasons & Soil",
-    desc: "A Unity strategy simulation about planting, harvesting, and surviving changing seasons through interconnected resource systems.",
-    tags: "Unity · C# · simulation",
+    desc: "A systems-driven farming simulation where crops, seasons, soil, inventory, and a working economy interact through deterministic rules.",
+    tags: "Unity 6.6 · C# · simulation",
     status: "PRIVATE PROJECT",
   },
 ];
